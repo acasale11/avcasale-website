@@ -59,3 +59,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.stock-logo {
+    display: block;
+    width: 300px;  /* Adjust the size as needed */
+    height: auto;  /* Maintains aspect ratio */
+    margin: 10px auto; /* Centers the image */
+}
+
