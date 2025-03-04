@@ -1,68 +1,77 @@
+/* General page styling */
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
     background-color: #f4f4f4;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
+/* Container for all content */
 .container {
-    max-width: 800px;
+    width: 80%;
+    max-width: 1000px;
     margin: auto;
     background: white;
     padding: 20px;
-    border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
+/* Heading styles */
 h1 {
-    color: #333;
-}
-
-.stock-section {
-    margin-top: 30px;
-    padding: 20px;
-    background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.stock-logo {
-    max-width: 200px;
-    height: auto;
+    font-size: 36px;
     margin-bottom: 10px;
 }
 
 h2 {
-    color: #0073e6;
+    font-size: 28px;
+    margin-top: 20px;
 }
 
+/* Styling for the stock logo images */
+.stock-logo {
+    display: block;
+    width: 600px;  /* Twice the previous size */
+    height: auto;  /* Keeps the aspect ratio */
+    margin: 20px auto; /* Centers the image */
+}
+
+/* Paragraph and text styles */
 p {
     font-size: 18px;
     color: #333;
+    line-height: 1.5;
 }
 
+/* Italicized text */
+em {
+    font-style: italic;
+}
+
+/* Green bold styling for profit */
+strong[style="color:green;"] {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* List styles */
 ul {
     list-style: none;
     padding: 0;
 }
 
-ul li {
+li {
     margin: 10px 0;
 }
 
+/* Links */
 a {
     text-decoration: none;
-    color: #0073e6;
+    color: #007BFF;
     font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
 }
-.stock-logo {
-    display: block;
-    width: 300px;  /* Adjust the size as needed */
-    height: auto;  /* Maintains aspect ratio */
-    margin: 10px auto; /* Centers the image */
-}
-
